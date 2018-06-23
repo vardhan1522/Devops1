@@ -1,0 +1,37 @@
+FOur types Storage 
+S3 basics
+
+Standard S3
+Standard IA(Infrequent Access)
+RRS - Reduced Redundancy storage
+
+differs only on pricing 
+
+
+Life cycle policies 
+Cannot move 
+
+
+EC2
+Firewall
+Security groups
+Volumes
+S3 buckets
+Types of storage 
+VPC
+Cloud watch 
+RDC(DB)
+SNS
+Route53
+Reverse proxy 
+CDN(Cloud front)(Need to study)
+Lambda(need to study)
+
+
+
+Foundation for setting up architecture(taken care by cloud provider)
+-----------------------
+Compute
+Storage
+Database
+Network 

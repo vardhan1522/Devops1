@@ -1,0 +1,22 @@
+AWS commands
+
+Login to EC2 instance from Linux;
+ssh -i ~/Desktop/FirstInstance.pem ec2-user@34.216.219.127
+
+Apply latest updates to components/application in EC2
+sudo yum update
+
+Basic commands;
+ifconfig
+telnet
+nslookup
+
+
+Login to root user;
+sudo su -
+
+Install nginx;
+yum  install nginx
+
+Change file content;
+echo "WELCOM" > filename

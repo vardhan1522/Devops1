@@ -1,0 +1,73 @@
+Advance level commands;
+
+Create new user in linux;
+adduser <username>
+
+CPU utilization;
+TOP
+
+Ram utilization;
+free -m
+
+Mount point/disk usage;
+df -hT
+-hT(human readable format)
+
+To check all processes running; 
+pf fax 
+
+Kill process; 
+kill <process ID/PID>
+
+Copy Dirctory;
+cp -r 
+
+size of directories; 
+du -sh * 
+
+Crontab Syntax;
+****** name of the command to run at that time
+*/2*****( if running every 2 mins)
+first star:- Minute --> 0-59 
+second star:- Hours --> 0-23
+thrid star:- Day of the month --> 1-31
+fourth star:- month of year --> 1-12
+fifth star:- Day of week-->1-7
+sixth star:- Year -->1900-3000
+
+Installationon commands;
+apt-get install <application>
+ex; apt-get install nginx 
+
+Kill process;
+strace -p <PID>
+
+Alias commands;
+alias r = 'reboot' 
+
+Find a file in file system;
+find / -name 
+
+Create shortcut;
+ln -s <sourcefile> <filename>
+
+Few more;
+netstat -nautpl
+
+To find which software is listening for connections;
+netstat -nautpl | grep LISTEN
+
+nslookup
+
+synchronise two directories;
+rsync -avz /source /destination
+Can be used across machines/servers as well.
+
+Learn about CHMOD;
+User permission code ->first three 
+group permission code ->second three
+other permission code ->third three 
+
+read - 4
+write - 2
+execute - 1
